@@ -6,7 +6,15 @@
         flex-direction: column;
         height: 240px;
         align-items: center;
+        margin-right: 240px;
 
+    }
+
+    .game-header {
+
+        align-items: center;
+        margin-right: 250px;
+        gap: 20px;
     }
 
     .nav-item-container {
@@ -14,48 +22,53 @@
         width: auto;
         height: auto;
         align-items: center;
-        
-
+        margin-left: 200px;
+        gap: 5px;
     }
 
     .bannar-container {
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-text {
+        margin-left: 440px;
+    }
+
+    .bannar-img {
+        margin-left: 240px;
     }
 
     .online-game {
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
+        height: 2250px;
+
     }
 
     .box {
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        align-items: center;
-        
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 680px;
     }
 
     .Play-Instantly {
-        
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        align-items: center;
-       
-    }
-    .all-btn {
-
-        margin-top: 50px;
-        width: 1920px;
-        height: 427px;
-        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        align-items: center;
-      
-    
+    }
+
+    .Play-Instantly-text {
+        margin-right: 900px;
+    }
+
+    .Play-Instantly-images {
+        margin-left: 500px;
+    }
+
+    .all-btn {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       
     }
 
 
