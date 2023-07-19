@@ -100,7 +100,7 @@ span {
     /* font-weight: 600; */
     line-height: normal;
     padding-top: 90px;
-    
+
 
 
 
@@ -214,6 +214,7 @@ span {
 
 
 
+
 /* play instantly */
 
 .Play-Instantly {
@@ -248,7 +249,7 @@ span {
     line-height: 30px;
 }
 
-.Play-Instantly-images {}
+
 
 .play-img1 {
     padding-right: 240px;
@@ -273,7 +274,7 @@ span {
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
-  
+
 
 }
 
@@ -303,8 +304,7 @@ span {
 .imgage-btn:hover {
     border: #F948B2;
     color: rgb(240, 41, 163);
-
-
+    border: 1px solid #d6188a;
 }
 
 
